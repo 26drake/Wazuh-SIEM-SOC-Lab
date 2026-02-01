@@ -66,27 +66,27 @@ Lanzamos varios comandos de reconocimiento desde CMD para generar eventos anóma
 
 ### 7. Mapeo con Framework MITRE ATT&CK
 Wazuh clasificó automáticamente los eventos detectados según las tácticas y técnicas del framework MITRE ATT&CK, lo que facilitó el análisis del comportamiento del atacante.
-![MITRE](./img/7.Panel%20de%20MITRE%20ATT&CK%20en%20Wazuh.png)
+![MITRE](./img/7.Panel%20de%20MITRE%20ATT%26CK%20en%20Wazuh.png)
 
-### 10. Detección de Ataque Crítico (Fuerza Bruta)
+### 8. Detección de Ataque Crítico (Fuerza Bruta)
 **Alerta Nivel 10:** Wazuh lanzó una alerta crítica de nivel 10 por varios intentos fallidos de inicio de sesión en poco tiempo. Este patrón indica un ataque de fuerza bruta dirigido a cuentas locales y exige respuesta inmediata.
 ![Alerta 10](./img/10.Alerta%20de%20nivel%2010.png)
 
 ## Gestión de Vulnerabilidades y refuerzo de seguridad
 
-### 11. Escaneo de Vulnerabilidades (CVE)
+### 9. Escaneo de Vulnerabilidades (CVE)
 Encontramos 22 vulnerabilidades críticas en el sistema. Esto nos ayudó a definir prioridades claras para la mitigación.
 ![CVE](./img/11.Dashboard%20con%2022%20Critical.png)
 
-### 12. Auditoría CIS Benchmark (SCA)
+### 10. Auditoría CIS Benchmark (SCA)
 El análisis de configuración segura con CIS Benchmarks mostró un puntaje inicial del 31%. El resultado deja ver fallas importantes en la configuración del sistema.
 ![SCA](./img/12.Score%2031%25.png)
 
-### 13. Remediación: Política de Bloqueo
+### 11. Remediación: Política de Bloqueo
 Aplicamos una política que bloquea la cuenta después de cinco intentos fallidos. Así, reducimos el riesgo de ataques de fuerza bruta.
 ![GPO](./img/13.GPO%20Bloqueo%20de%20cuenta.png)
 
-### 14. Actualización Crítica del Sistema
+### 12. Actualización Crítica del Sistema
 También completamos un ciclo de actualización del sistema con Windows Update, lo que permitió mitigar vulnerabilidades conocidas.
 ![Update](./img/14.Windows%20Update.png)
 
