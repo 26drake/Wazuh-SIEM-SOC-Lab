@@ -66,7 +66,7 @@ Lanzamos varios comandos de reconocimiento desde CMD para generar eventos anóma
 
 ### 7. Mapeo con Framework MITRE ATT&CK
 Wazuh clasificó automáticamente los eventos detectados según las tácticas y técnicas del framework MITRE ATT&CK, lo que facilitó el análisis del comportamiento del atacante.
-![MITRE](./img/7.Panel%20de%20MITRE%20ATT%26CK%20en%20Wazuh.png)
+![MITRE](./img/7.Panel%20de%20MITRE%20ATT%26CK%20en%20Wazuh..png)
 
 ### 8. Detección de Ataque Crítico (Fuerza Bruta)
 **Alerta Nivel 10:** Wazuh lanzó una alerta crítica de nivel 10 por varios intentos fallidos de inicio de sesión en poco tiempo. Este patrón indica un ataque de fuerza bruta dirigido a cuentas locales y exige respuesta inmediata.
