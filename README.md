@@ -117,15 +117,15 @@ También completamos un ciclo de actualización del sistema con Windows Update, 
 ## Reconocimientos Especiales
 Quiero expresar mi gratitud a los siguientes proyectos y desarrolladores, cuya documentación y herramientas en GitHub permitieron la realización de este laboratorio:
 
-* **Wazuh (GitHub)**
+* **@Wazuh (GitHub)**
   
   https://github.com/wazuh
 
-* **SocFortress (GitHub)**
+* **@SocFortress (GitHub)**
   
   https://github.com/socfortress
 
-* **OpenCyber-IO (GitHub)**
+* **@OpenCyber-IO (GitHub)**
   
   https://github.com/opencyber-io
   
